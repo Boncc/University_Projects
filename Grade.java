@@ -16,7 +16,7 @@ public class Grade {
 
     public static double getGrade(int points) {
         double grade;
-        if (points <= 50) {
+        if (points < 50) {
             grade = 2;
         } else if (points <= 60) {
             grade = 3;
